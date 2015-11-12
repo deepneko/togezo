@@ -4,12 +4,13 @@ This is a gem for getting extreme values on a chart via Gaussian/Pearson.
 
 ## Installation
 
-  $ gem install togezo
+    $ gem install togezo
 
 ## Usage
 
-  togezo = Togezo.init("hoge.dat")
-  puts togezo.fit
+    togezo = Togezo.init("hoge.dat")
+    peaks = togezo.fit
+    p peaks
 
 ## Contributing
 
