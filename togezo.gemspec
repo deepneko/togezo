@@ -6,11 +6,13 @@ require 'togezo/version'
 Gem::Specification.new do |spec|
   spec.name          = "togezo"
   spec.version       = Togezo::VERSION
+  spec.licenses      = ["MIT"]
   spec.authors       = ["deepneko"]
   spec.email         = ["deep.inu@gmail.com"]
 
   spec.summary       = %q{Togezo provides extreme values on a chart via Gaussian/Pearson.}
   spec.homepage      = "https://github.com/deepneko/togezo"
+  spec.required_ruby_version     = ">= 1.9"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -27,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   #spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  #spec.add_development_dependency "rspec"
 end
