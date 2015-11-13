@@ -34,13 +34,13 @@ Read the data file.
 
 Fit with Gaussian or Pearson. 
 
-    togezo.fit(Togezo::GAUSSIAN, 5)
+    togezo.fit(Togezo::GAUSSIAN, 4) # 4 is the number of times of fitting.
 
 Get extreme values as an array of x,y coordinates. 
 
-    p togezo.peaks
-    p togezo.positives
-    p togezo.negatives
+    p togezo.peaks     # All peaks
+    p togezo.positives # Positive peaks from the median of all data. 
+    p togezo.negatives # Negative peaks from the median of all data. 
 
 ## Contributing
 
