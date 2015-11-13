@@ -16,8 +16,7 @@ Then, please install togezo from rubygems.
 
 ## Usage
 
-- Prepare a data file describing x,y coordinates.
-
+Prepare a data file describing x,y coordinates.
     $ cat sample.dat
     0 46.177
     1 46.177
@@ -27,17 +26,14 @@ Then, please install togezo from rubygems.
        :
        :
 
-- Read the data file.  
-
+Read the data file.  
     require 'togezo'
     togezo = Togezo.init("sample.dat")
 
-- Fit with Gaussian or Pearson. 
-
+Fit with Gaussian or Pearson. 
     togezo.fit(Togezo::GAUSSIAN, 5)
 
-- Get extreme values as an array of x,y coordinates. 
-
+Get extreme values as an array of x,y coordinates. 
     p togezo.peaks
     p togezo.positives
     p togezo.negatives
