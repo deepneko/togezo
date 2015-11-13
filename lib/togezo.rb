@@ -7,7 +7,19 @@ module Togezo
   PEARSON = 1
 
   def self.init(filename, debug=false)
+    unless fityk_installed?
+      puts "Please install fityk at first. http://fityk.nieto.pl/"
+      exit 0
+    end
     Togezo.new(filename, debug)
+  end
+
+  def self.fityk_installed?
+    fityk_ver = `cfityk -V 2>&1`
+    if fityk_ver =~ /^fityk/
+      return true
+    end
+    false
   end
 
   class Togezo
