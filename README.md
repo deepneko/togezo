@@ -42,6 +42,8 @@ Get extreme values as an array of x,y coordinates.
     p togezo.positives # Positive peaks from the median of all data. 
     p togezo.negatives # Negative peaks from the median of all data. 
 
+![peaks](https://github.com/deepneko/togezo/blob/master/peaks.gif "peaks")
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/deepneko/togezo.
