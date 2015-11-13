@@ -2,7 +2,7 @@
 
 This is a gem for getting extreme values on a chart via Gaussian/Pearson.
 
-![togezo](https://github.com/deepneko/togezo/blob/master/togezo.gif "togezo")
+![togezo](https://github.com/deepneko/togezo/blob/master/img/togezo.gif "togezo")
 
 ## Installation
 
@@ -42,7 +42,7 @@ Get extreme values as an array of x,y coordinates.
     p togezo.positives # Positive peaks from the median of all data. 
     p togezo.negatives # Negative peaks from the median of all data. 
 
-![peaks](https://github.com/deepneko/togezo/blob/master/peaks.gif "peaks")
+![peaks](https://github.com/deepneko/togezo/blob/master/img/peaks.gif "peaks")
 
 ## Contributing
 
