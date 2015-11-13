@@ -16,9 +16,13 @@ Then, please install togezo from rubygems.
 
 ## Usage
 
-    togezo = Togezo.init("hoge.dat")
-    peaks = togezo.fit
-    p peaks
+    require 'togezo'
+    
+    togezo = Togezo.init(ARGV[0])
+    togezo.fit(Togezo::GAUSSIAN, 5)
+    p togezo.peaks
+    p togezo.positives
+    p togezo.negatives
 
 ## Contributing
 
