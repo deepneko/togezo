@@ -2,7 +2,7 @@
 
 This is a gem for getting extreme values on a chart via Gaussian/Pearson.
 
-![togezo][https://github.com/deepneko/togezo/togezo.gif "togezo"]
+![togezo](https://github.com/deepneko/togezo/blob/master/togezo.gif "togezo")
 
 ## Installation
 
